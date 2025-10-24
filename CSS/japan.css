@@ -1,0 +1,29 @@
+
+        /* 
+           ==============================
+           Japanese National Flag Design
+           ==============================
+           - Flag ratio: 3 (width) : 2 (height)
+           - Background: #FFFFFF
+           - Red circle: Center at center
+            Diameter = 3/5 of flag height
+        */
+
+        .flag{
+            height: 200px;
+            width: 300px;
+            background-color: #FFFFFF;
+            position: absolute;
+            border: 2px solid #ccc;
+            margin: 40px auto;
+        }
+        .flag > div{
+            height: 120px;
+            width: 120px;
+            background-color: #BC002D;
+            border-radius: 50%;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+        }
